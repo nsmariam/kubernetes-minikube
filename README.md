@@ -29,9 +29,9 @@ minikube dashboard
 
 This project contains a web service coded in Java, but the language doesn't matter. This project has already been built and the binary version is there:
 
-First of all, download and uncompress the project: https://github.com/charroux/kubernetes-minikube
+First of all, download and uncompress the project: https://github.com/nsmariam/kubernetes-minikube
 
-You can also use git: `git clone https://github.com/charroux/kubernetes-minikube`
+You can also use git: `git clone https://github.com/nsmariam/kubernetes-minikube`
 
 Then move to the sud directory with `cd kubernetes-minikube/myservice` where a DockerFile is.
 
@@ -106,10 +106,10 @@ Example: `docker push myDockerID/myservice:1`
 kubectl get nodes
 ```
 ```
-kubectl create deployment myservice --image=efrei/myservice:1
+kubectl create deployment myservice --image=nsmariam/myservice:1
 ```
 
-The image used comes from the Docker hub: https://hub.docker.com/r/efrei/myservice/tags
+The image used comes from the Docker hub: https://hub.docker.com/r/nsmariam/myservice/tags
 
 But you can use your own image instead.
 
